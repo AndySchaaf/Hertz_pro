@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void execute(View view){
-        Intent intent = new Intent(this, vehicle.class);
+        startActivity(new Intent(getApplicationContext(), vehicle.class));
     }
 
     @Override
